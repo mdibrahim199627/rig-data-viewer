@@ -6,7 +6,7 @@ import plotly.express as px
 from datetime import datetime
 
 # Set page layout to wide and inject CSS to remove empty top space
-st.set_page_config(page_title="Rig Data Viewer", layout="wide")
+st.set_page_config(page_title="GSS Data Viewer", layout="wide")
 st.markdown("""
     <style>
         .block-container {
@@ -26,7 +26,7 @@ def load_peep_file(uploaded_file):
                 return df
     return None
 
-st.title("Tri-Track Rig Sensor Log")
+st.title("GSS Time Log_Ibrahim")
 
 uploaded_file = st.file_uploader("Upload a .peep archive", type=["peep"])
 
