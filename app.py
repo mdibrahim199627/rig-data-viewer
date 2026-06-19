@@ -356,7 +356,7 @@ if uploaded_file is not None:
                                 temp = f_df[['Time', f"{param}(Y)"]].copy()
                                 
                                 # Round time to the nearest flat second to prevent staircasing
-                                temp['Time'] = temp['Time'].dt.round('S')
+                                temp['Time'] = temp['Time'].dt.round('s')
                                 
                                 temp.rename(columns={f"{param}(Y)": short_name}, inplace=True)
                                 
