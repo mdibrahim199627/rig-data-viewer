@@ -26,7 +26,7 @@ def load_peep_file(uploaded_file):
                 return df
     return None
 
-st.title("Tri-Track Rig Sensor Log")
+st.title("Datta bhai")
 
 uploaded_file = st.file_uploader("Upload a .peep archive", type=["peep"])
 
