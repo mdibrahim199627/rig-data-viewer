@@ -46,7 +46,7 @@ if uploaded_file is not None:
             
             # --- THE ALIAS MAP FOR CLEAN DISPLAY NAMES ---
             ALIAS_MAP = {
-                "StandPipeSystem.PRS.1.TRC": "SPP",
+                "StandPipeSystem.PRS.1.TRC": "Pressure",
                 "HoistingSystem.HKH.1.TRC": "Hook Height",
                 "FlowMonitoring.PumpFlow.1": "GPM",
                 "HoistingSystem.WOH.1.TRC": "WOH",
@@ -130,7 +130,7 @@ if uploaded_file is not None:
                     "FlowMonitoring.PumpFlow.1": {"min": 0.0, "max": 1000.0},
                     "HoistingSystem.WOH.1.TRC": {"min": 0.0, "max": 420.0},
                     "TopDrive.TRQ.1.TRC": {"min": 0.0, "max": 50000.0},
-                    "TopDrive.RPM.1.TRC": {"min": 0.0, "max": 100.0},
+                    "TopDrive.RPM.1.TRC": {"min": 0.0, "max": 300.0},
                     "DrillBoreHoleReaming.WOBDriller": {"min": 0.0, "max": 200.0},
                     "DrillBoreHoleReaming.ROPOnDepthStep": {"min": 0.0, "max": 300.0},
                     "FlowLineSystem.Fpdl.1.TRC": {"min": 0.0, "max": 100.0},
