@@ -6,7 +6,7 @@ import plotly.express as px
 from datetime import datetime
 
 # Set page layout to wide and inject CSS to remove empty top space
-st.set_page_config(page_title="Rig Data Viewer", layout="wide")
+st.set_page_config(page_title="GSS Time Log", layout="wide")
 st.markdown("""
     <style>
         .block-container {
